@@ -36,7 +36,7 @@
 			      <muleVersion>${app.runtime}</muleVersion>
 			      <username>srk1794</username>
 			      <password>Amonia#26</password>
-			      <applicationName>mule-demo</applicationName>
+			      <applicationName>mule-demo-sys-shubham-sandbox</applicationName>
 			      <environment>Sandbox</environment>
 			      <workers>1</workers>
 			      <workerType>Micro</workerType>
