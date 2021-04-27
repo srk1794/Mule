@@ -36,7 +36,7 @@
 			      <username>srk1794</username>
 			      <password>Amonia#26</password>
 			      <applicationName>mule-demo</applicationName>
-			      <environment>sandbox</environment>
+			      <environment>Sandbox</environment>
 			      <workers>1</workers>
 			      <workerType>Micro</workerType>
     			</cloudHubDeployment>
