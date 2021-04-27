@@ -31,6 +31,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+			    <cloudHubDeployment>
+			      <muleVersion>${app.runtime}</muleVersion>
+			      <username>srk1794</username>
+			      <password>Amonia#26</password>
+			      <applicationName>mule-demo</applicationName>
+			      <environment>sandbox</environment>
+			      <workers>1</workers>
+			      <workerType>Micro</workerType>
+    			</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
