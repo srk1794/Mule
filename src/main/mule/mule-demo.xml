@@ -5,10 +5,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="9d867f0a-b67c-4c3b-957f-00cc8d0388e6" >
-		<http:listener-connection host="0.0.0.0" port="8081" />
+		<http:listener-connection host="0.0.0.0" port="8089" />
 	</http:listener-config>
 	<flow name="mule-demoFlow" doc:id="a618cd3c-fa4a-4ab0-b0df-8ffc43a0bc84" >
 		<http:listener doc:name="Listener" doc:id="d9940366-6495-44a0-bdd7-7f8a552d8e1a" config-ref="HTTP_Listener_config" path="/demo"/>
-		<set-payload value='#["hello world"]' doc:name="Set Payload" doc:id="797db84c-d87d-4508-b7ae-f146cd2f7813" mimeType="application/json"/>
+		<set-payload value='#["hello world this is demo"]' doc:name="Set Payload" doc:id="797db84c-d87d-4508-b7ae-f146cd2f7813" mimeType="application/json"/>
 	</flow>
 </mule>
