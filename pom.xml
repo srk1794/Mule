@@ -32,6 +32,7 @@
 				<extensions>true</extensions>
 				<configuration>
 			    <cloudHubDeployment>
+			     <uri>https://anypoint.mulesoft.com</uri>
 			      <muleVersion>${app.runtime}</muleVersion>
 			      <username>srk1794</username>
 			      <password>Amonia#26</password>
